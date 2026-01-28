@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion World</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Roboto Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!-- Hachi Maru Pop Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ordertrack.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Fashion World</div>
+
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="category.html">Categories</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-icons">
+      <i class="fa-solid fa-cart-shopping" onclick="window.location.href='cart.html'"></i>
+      <i class="fa-regular fa-user"></i>
+      <button class="login-btn">Login</button>
+    </div>
+  </nav>
+
+
+<div class="tracking-page">
+
+  <h1>Order Tracking</h1>
+
+  <!-- Estimated Delivery -->
+  <div class="card delivery">
+    <div>
+      <p class="label">Estimated Delivery</p>
+      <p class="text">Your order is expected to arrive by</p>
+      <h3>Thursday, July 4, 2024</h3>
+    </div>
+    <div class="truck">🚚</div>
+  </div>
+
+  <!-- Order Status -->
+  <div class="card">
+    <div class="status-header">
+      <h3>Order Status</h3>
+      <span>70% Complete</span>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+
+    <!-- Steps -->
+    <div class="steps">
+
+      <div class="step active">
+        <div class="icon">✔</div>
+        <div>
+          <strong>Order Placed</strong>
+          <p>We received your order on June 25, 2024.</p>
+        </div>
+      </div>
+
+      <div class="step active">
+        <div class="icon">⚙</div>
+        <div>
+          <strong>Processing</strong>
+          <p>Your order is being prepared for shipment.</p>
+        </div>
+      </div>
+
+      <div class="step active">
+        <div class="icon">📦</div>
+        <div>
+          <strong>Shipped</strong>
+          <p>Your package has left the warehouse.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="icon muted">🚚</div>
+        <div>
+          <strong>Out for Delivery</strong>
+          <p>Your package is on the way to your address.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="icon muted">🏠</div>
+        <div>
+          <strong>Delivered</strong>
+          <p>Your package has been delivered.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Help -->
+  <div class="help-box">
+    <div>
+      <strong>Need Help?</strong>
+      <p>If you have any questions about your order, our support team is here to help.</p>
+    </div>
+    <button>Contact Support</button>
+  </div>
+
+</div>
+
+
+
+  <!--Footer-->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-col brand">
+      <h3>LUXE.</h3>
+      <p>
+        Premium fashion for the modern connoisseur.
+        Elevate your style with our curated collections.
+      </p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+    </div>
+
+    <!-- Help -->
+    <div class="footer-col">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Find a Store</a></li>
+        <li><a href="#">Shipping & Returns</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+    <!-- About -->
+    <div class="footer-col">
+      <h4>About</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Corporate Responsibility</a></li>
+        <li><a href="#">Press</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>

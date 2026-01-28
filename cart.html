@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion World</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Roboto Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!-- Hachi Maru Pop Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Fashion World</div>
+
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="category.html">Categories</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-icons">
+      <i class="fa-solid fa-cart-shopping" onclick="window.location.href='cart.html'"></i>
+      <i class="fa-regular fa-user"></i>
+      <button class="login-btn">Login</button>
+    </div>
+  </nav>
+
+
+<div class="cart-page">
+
+  <h1>Shopping Cart</h1>
+
+  <div class="cart-container">
+
+    <!-- LEFT : CART ITEMS -->
+    <div class="cart-items">
+      <h2>Your Cart</h2>
+
+      <!-- Item 1 -->
+      <div class="cart-item">
+        <img src="Images/80d1541e3572f04d14499df798cff490f2d9f073.jpg" alt="Wireless Headphones">
+
+        <div class="item-details">
+          <h4>Wireless Headphones</h4>
+          <p>Black, Noise Cancelling</p>
+
+          <div class="qty">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+        </div>
+
+        <div class="item-price">$199.98</div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="cart-item">
+        <img src="Images/87e63bfdb8954f3868207ff00cac12d753024c1a.jpg" alt="Smartwatch">
+
+        <div class="item-details">
+          <h4>Smartwatch</h4>
+          <p>Silver, 42mm</p>
+
+          <div class="qty">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+            <span class="delete">🗑</span>
+          </div>
+        </div>
+
+        <div class="item-price">$249.00</div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT : PRICE SUMMARY -->
+    <div class="price-box">
+      <h3>Price Breakdown</h3>
+
+      <div class="row">
+        <span>Subtotal</span>
+        <span>$628.95</span>
+      </div>
+
+      <div class="row">
+        <span>Tax (8%)</span>
+        <span>$50.32</span>
+      </div>
+
+      <div class="row">
+        <span>Shipping</span>
+        <span>$15.00</span>
+      </div>
+
+      <hr>
+
+      <div class="row total">
+        <span>Total</span>
+        <span>$694.27</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+  <!--Footer-->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-col brand">
+      <h3>LUXE.</h3>
+      <p>
+        Premium fashion for the modern connoisseur.
+        Elevate your style with our curated collections.
+      </p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+    </div>
+
+    <!-- Help -->
+    <div class="footer-col">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Find a Store</a></li>
+        <li><a href="#">Shipping & Returns</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+    <!-- About -->
+    <div class="footer-col">
+      <h4>About</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Corporate Responsibility</a></li>
+        <li><a href="#">Press</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>

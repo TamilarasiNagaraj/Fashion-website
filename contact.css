@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+}
+
+/* Page */
+.contact-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.page-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* Card */
+.contact-card {
+  width: 380px;
+  border: 1px solid #cfcfcf;
+  border-radius: 20px;
+  padding: 30px 25px;
+}
+
+.contact-card h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contact-card h3 span {
+  color: #2962e4;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+/* Input fields */
+.field {
+  margin-bottom: 22px;
+}
+
+.field label {
+  font-size: 12px;
+  color: #333;
+}
+
+.field input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 0;
+  outline: none;
+  font-size: 13px;
+}
+
+/* Checkbox */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  margin: 20px 0 25px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  background: #2962e4;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e4fc6;
+}

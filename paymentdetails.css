@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f9fafb;
+  color: #111827;
+}
+
+.payment-page {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px 40px 50px;
+  border-radius: 10px;
+}
+
+/* Steps */
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.step {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.step.active {
+  color: #ff6f61;
+  font-weight: 500;
+}
+
+.step span {
+  margin-left: 4px;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background: #ff6f61;
+  margin: 0 10px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+/* Main box */
+.payment-box {
+  display: flex;
+  gap: 40px;
+}
+
+/* Card preview */
+.card-preview {
+  width: 220px;
+  height: 140px;
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+  border-radius: 12px;
+  color: #fff;
+  padding: 16px;
+  position: relative;
+}
+
+.chip {
+  width: 34px;
+  height: 26px;
+  background: gold;
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+.card-number {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+}
+
+.brand {
+  position: absolute;
+  bottom: 12px;
+  right: 14px;
+  font-size: 10px;
+  text-transform: lowercase;
+}
+
+/* Form */
+.payment-form {
+  flex: 1;
+}
+
+.payment-form label {
+  font-size: 12px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.row input {
+  margin-bottom: 0;
+}
+
+/* Amount */
+.amount {
+  font-size: 13px;
+  margin: 16px 0;
+}
+
+.amount span {
+  color: #ff6f61;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.cancel {
+  flex: 1;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pay {
+  flex: 1;
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Back */
+.back {
+  margin-top: 40px;
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 7px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 600px;
+}

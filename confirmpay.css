@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #111827;
+}
+
+.page {
+  max-width: 520px;
+  margin: 40px auto 80px;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Steps */
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.step.active {
+  color: #111827;
+}
+
+.circle {
+  width: 22px;
+  height: 22px;
+  background: #ff6f61;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 70px;
+  height: 2px;
+  background: #ff6f61;
+  margin: 0 10px;
+}
+
+/* Success Icon */
+.success-icon {
+  width: 52px;
+  height: 52px;
+  margin: 10px auto 16px;
+  background: #16a34a;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Text */
+.success-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.success-text {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 26px;
+}
+
+/* Order Card */
+.order-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 18px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.order-card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Items */
+.order-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.order-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info strong {
+  font-size: 13px;
+  display: block;
+}
+
+.item-info span {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.price {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Summary */
+.summary {
+  margin-top: 14px;
+  font-size: 13px;
+}
+
+.summary div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.summary .total {
+  font-weight: 700;
+}
+
+/* Next Steps */
+.next-steps h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.next-steps p {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+}
+
+.secondary {
+  background: #fff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}

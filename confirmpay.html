@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion World</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Roboto Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!-- Hachi Maru Pop Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="confirmpay.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Fashion World</div>
+
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="category.html">Categories</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-icons">
+      <i class="fa-solid fa-cart-shopping" onclick="window.location.href='cart.html'"></i>
+      <i class="fa-regular fa-user"></i>
+      <button class="login-btn">Login</button>
+    </div>
+  </nav>
+
+
+<div class="page">
+
+  <!-- Title -->
+  <h1 class="title">Thank You!</h1>
+
+  <!-- Steps -->
+  <div class="steps">
+    <div class="step active">
+      <span class="circle">1</span>
+      <span class="label">Shipping</span>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="step active">
+      <span class="circle">2</span>
+      <span class="label">Payment</span>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="step active">
+      <span class="circle">3</span>
+      <span class="label">Confirm</span>
+    </div>
+  </div>
+
+  <!-- Success Icon -->
+  <div class="success-icon">
+    ✓
+  </div>
+
+  <!-- Message -->
+  <h2 class="success-title">Payment Confirmed</h2>
+  <p class="success-text">
+    Thank you for your purchase! Your order has been successfully processed.
+  </p>
+
+  <!-- Order Summary -->
+  <div class="order-card">
+    <h3>Order Summary</h3>
+
+    <div class="order-item">
+      <img src="Images/c6397bbd9330088cb659cec36b7137ccdeef4000.jpg" alt="">
+      <div class="item-info">
+        <strong>Wireless Headphones</strong>
+        <span>Quantity: 1</span>
+      </div>
+      <span class="price">$99.99</span>
+    </div>
+
+    <div class="order-item">
+      <img src="Images/87e63bfdb8954f3868207ff00cac12d753024c1a.jpg" alt="">
+      <div class="item-info">
+        <strong>Smart Watch</strong>
+        <span>Quantity: 1</span>
+      </div>
+      <span class="price">$149.99</span>
+    </div>
+
+    <div class="summary">
+      <div><span>Subtotal</span><span>$249.98</span></div>
+      <div><span>Shipping</span><span>$15.00</span></div>
+      <div class="total"><span>Total</span><span>$264.98</span></div>
+    </div>
+  </div>
+
+  <!-- Next Steps -->
+  <div class="next-steps">
+    <h4>Next Steps</h4>
+    <p>
+      You will receive an email confirmation shortly with your order details and
+      tracking information.
+    </p>
+    <p>If you have any questions, please contact our support team.</p>
+  </div>
+
+  <!-- Buttons -->
+  <div class="actions">
+    <button class="btn primary" onclick="window.location.href='all.html'">Continue Shopping</button>
+    <button class="btn secondary" onclick="window.location.href='ordertrack.html'">View Tracking Details</button>
+  </div>
+
+</div>
+
+
+  <!--Footer-->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-col brand">
+      <h3>LUXE.</h3>
+      <p>
+        Premium fashion for the modern connoisseur.
+        Elevate your style with our curated collections.
+      </p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+    </div>
+
+    <!-- Help -->
+    <div class="footer-col">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Find a Store</a></li>
+        <li><a href="#">Shipping & Returns</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+    <!-- About -->
+    <div class="footer-col">
+      <h4>About</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Corporate Responsibility</a></li>
+        <li><a href="#">Press</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>

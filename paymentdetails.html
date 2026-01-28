@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion World</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Roboto Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!-- Hachi Maru Pop Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="paymentdetails.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Fashion World</div>
+
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="category.html">Categories</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-icons">
+      <i class="fa-solid fa-cart-shopping" onclick="window.location.href='cart.html'"></i>
+      <i class="fa-regular fa-user"></i>
+      <button class="login-btn">Login</button>
+    </div>
+  </nav>
+<!--Inside body content-->
+
+
+<div class="payment-page">
+
+  <!-- Steps -->
+  <div class="steps">
+    <div class="step active">1 <span>Shipping</span></div>
+    <div class="line"></div>
+    <div class="step active">2 <span>Payment</span></div>
+    <div class="line"></div>
+    <div class="step">3 <span>Confirm</span></div>
+  </div>
+
+  <h1>Payment details</h1>
+
+  <div class="payment-box">
+
+    <!-- Card preview -->
+    <div class="card-preview">
+      <div class="chip"></div>
+      <p class="card-number">9047 9485 2593 6046</p>
+      <div class="card-bottom">
+        <span>GAYATHRI S</span>
+        <span>12/24</span>
+      </div>
+      <div class="brand">mastercard</div>
+    </div>
+
+    <!-- Form -->
+    <form class="payment-form">
+      <label>Card holder name</label>
+      <input type="text" value="GAYATHRI S">
+
+      <label>Card Number</label>
+      <input type="text" value="9047 9485 2593 6046">
+
+      <div class="row">
+        <div>
+          <label>Expiry date</label>
+          <input type="text" value="12/30">
+        </div>
+        <div>
+          <label>CVV</label>
+          <input type="password" value="23456">
+        </div>
+      </div>
+
+      <div class="amount">
+        Payment amount <span>Rs.460</span>
+      </div>
+
+      <div class="buttons">
+        <button class="cancel" type="button">Cancel</button>
+        <button class="pay" type="button" onclick="window.location.href='confirmpay.html'">Pay Now</button>
+      </div>
+    </form>
+
+  </div>
+
+ 
+
+</div>
+ <button class="back">← Back</button>
+ <br>
+ <br>
+ <br>
+  <!--Footer-->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-col brand">
+      <h3>LUXE.</h3>
+      <p>
+        Premium fashion for the modern connoisseur.
+        Elevate your style with our curated collections.
+      </p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+    </div>
+
+    <!-- Help -->
+    <div class="footer-col">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Find a Store</a></li>
+        <li><a href="#">Shipping & Returns</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+    <!-- About -->
+    <div class="footer-col">
+      <h4>About</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Corporate Responsibility</a></li>
+        <li><a href="#">Press</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
